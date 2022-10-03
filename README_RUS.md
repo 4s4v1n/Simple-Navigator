@@ -2,24 +2,25 @@
 
 ![logo](./images/graph.svg)
 
-## Content
+## Содержание
 
-The project implements a graph and popular algorithms on graphs, namely:
+В проекте реализован граф и популярные алгоритмы на графах, а именно:
 
-1) Breadth first search.
-2) Search in depth.
-3) Finding the shortest path between two vertices.
-4) Finding the shortest path among all pairs of vertices.
-5) Finding the minimum spanning tree.
-6) Solving the Salesman problem.
+1) Поиск в ширину.
+2) Поиск в глубину.
+3) Нахождение кратчайшего пути между двумя вершинами.
+4) Нахождение кратчайшего пути среди всех пар вершин.
+5) Нахождение минимального остовного дерева.
+6) Решение проблемы коммивояжёра.  
 
-There is an intuitive console interface that needs no explanation.
+Есть интуитивно понятный интерфейс консоли, который не нуждается в пояснениях.
 
-To build and run from project root:
+Для сборки и запуска из корня проекта:
 ``` bash
 cd src && make all
-```
+``` 
 
-To clear a project:
+Для очистки проекта:
 ``` bash
 cd src && make clean
+```
